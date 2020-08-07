@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div th:fragment="header">
+            <div class="float-right">
+                <div class="dropdown">
+                    <span class="text-white">Hello, </span>
+                    <a class="dropdown-toggle text-white" data-toggle="dropdown" href="javascript:void(0);">Tester</a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item disabled" href="javascript:void(0);">Normal User</a>
+                        <a class="dropdown-item disabled" href="javascript:void(0);">tester@test.com</a>
+                        <a class="dropdown-item" href="javascript:void(0);">Settings</a>
+                        <a class="dropdown-item" href="javascript:void(0);">Logout</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-3 mb-3 ml-2 text-white">
+                <h1>Web Template</h1>
+            </div>
+        </div>
+        
+        <div th:fragment="footer">
+            <div class="text-center">
+                <small class="text-muted">Powered by HiBrant</small>
+            </div>
+        </div>
+    </body>
+</html>
