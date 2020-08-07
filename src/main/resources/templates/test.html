@@ -8,22 +8,24 @@
     </head>
     <body>
         <div id="page-header" th:include="/base/page::header"></div>
-        <div id="page-nav">
-            <nav class="navbar navbar-dark navbar-expand-lg">
-                <div class="collapse navbar-collapse" th:include="/base/navigator::none-active"></div>
-            </nav>
-        </div>
-        <div id="page-content">
-            <div class="row">
-                <div class="col-12">
-                    <div class="card">
-                        <div class="card-header">Title</div>
-                        <div class="card-body">
-                            TODO
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div id="page-body">
+            <div id="page-nav">
+	            <nav class="navbar navbar-dark navbar-expand-lg">
+	                <div class="collapse navbar-collapse" th:include="/base/navigator::none-active"></div>
+	            </nav>
+	        </div>
+	        <div id="page-content">
+	            <div class="row">
+	                <div class="col-12">
+	                    <div class="card">
+	                        <div class="card-header">Title</div>
+	                        <div class="card-body">
+	                            TODO
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
         </div>
         <div id="page-footer" th:include="/base/page::footer"></div>
         <script src="/webjars/jquery/jquery.min.js"></script>

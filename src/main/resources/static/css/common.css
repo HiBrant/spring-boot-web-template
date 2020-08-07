@@ -1,10 +1,20 @@
+html {
+	height: 100%;
+}
+
 body {
+	min-height: 100%;
 	background-color: #f5f5f5;
+	position: relative;
 }
 
 #page-header {
 	background-color: #000;
 	padding: 8px;
+}
+
+#page-body {
+	padding-bottom: 50px;
 }
 
 #page-nav {
@@ -14,7 +24,7 @@ body {
 #page-content {
 	max-width: 1200px;
 	padding: 2em;
-	margin: 30px auto 20px;
+	margin: 30px auto 30px;
 	background-color: #fff;
 	border: 1px solid #e5e5e5;
 	border-radius: 5px;
